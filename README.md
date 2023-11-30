@@ -9,12 +9,12 @@
 
 ### Actual returns versus the strategy returns, 1st pass
 
-![Actual returns versus the strategy returns - 3 months](/Users/annatoaze/Documents/FinTech_Bootcamp/Unit_14_Hmwk/Resources_and_images/Returns_v_Strategy_Returns.png)
+![Actual returns versus the strategy returns - 3 months](Resources_and_images/Returns_v_Strategy_Returns.png)
 
 
 ### Step 1: Tune the training algorithm by adjusting the size of the training dataset (6 months)
 
-![Actual returns versus the strategy returns - 6 months](/Users/annatoaze/Documents/FinTech_Bootcamp/Unit_14_Hmwk/Resources_and_images/date_offset_6months.png)
+![Actual returns versus the strategy returns - 6 months](Resources_and_images/date_offset_6months.png)
 
 #### Answer: Inreasing the training window to 6 months increased the accuracy and increased the Strategy Returns
 
@@ -22,7 +22,7 @@
 #### Adjusted: short_window = 6, long_window = 300
 #### Answer: Increasing both the SMA windows gave a better result for the Strategy Returns
 
-![Actual returns versus the strategy returns - increased SMA](/Users/annatoaze/Documents/FinTech_Bootcamp/Unit_14_Hmwk/Resources_and_images/increased_SMA_windows.png)
+![Actual returns versus the strategy returns - increased SMA](Resources_and_images/increased_SMA_windows.png)
 
 ### Step 3: Choose the set of parameters that best improved the trading algorithm returns. 
 #### Answer: Increasing the SMA window positivley affected the Strategy Returns compaired to the other adjusted parameters
